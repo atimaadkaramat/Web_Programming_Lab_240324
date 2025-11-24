@@ -1,0 +1,31 @@
+ h1 { 
+    color: blue; 
+    text-align: center; 
+    background-color: brown;
+    } 
+
+    h1:hover{
+        color: black;
+        background-color: red;
+    }
+    .paragraph { 
+    font-size: 18px; 
+    color: green; 
+    } 
+@keyframes myAnimation {
+  0%   { left:0%; top:0px;}
+  25%  { left:90%; top:0px;}
+  50%  { left:90%; top:200px;}
+  75%  { left:0%; top:200px;}
+  100% { left:0%; top:0px;}
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
